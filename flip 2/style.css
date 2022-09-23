@@ -1,0 +1,98 @@
+body {
+    background-color: Black;
+    display: flex;
+    justify-content: center;
+  }
+  h1,
+  h2 {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+  button {
+    cursor: pointer;
+  }
+  .container {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+  }
+  .cover_image {
+    position: relative;
+    background-image: url(Aug.JPG);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .cover_image_overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+  }
+  .cover_image_content {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    margin-bottom: 35px;
+    margin-left: 25px;
+  }
+  .flex {
+    display: flex;
+  }
+  .icon_cover {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  .detail_content {
+    padding: 20px;
+    position: relative;
+  }
+  .job_description {
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .detail_content h1 {
+    color: #6786ff;
+  }
+  .circular_image {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  img.profile_image {
+    width: 100%;
+    height: auto;
+  }
+  .button {
+    background-color: #6786ff;
+    width: 100%;
+    border: 0px;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  .following {
+    margin-left: 20px;
+  }
+  .hidden {
+    display: none;
+  }

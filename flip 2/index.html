@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>flip card</title>
+</head>
+<body>
+    <div class="container">
+        <div id='cover_image' class="cover_image">
+          <div class="cover_image_overlay">
+            <div class="cover_image_content">
+              <div class="flex">
+                <div class="left">
+                  <h1>Augustine Izuchukwu</h1>
+                  <p>Frontend developer</p>
+                </div>
+                <div class="right">
+                  <div id='arrow_button' class="icon_cover" role='button'>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id='detail_content' class="detail_content hidden">
+          <div class="circular_image">
+            <img class="profile_image" src="Aug.JPG">
+          </div>
+          <h1>Augustine Izuchukwu</h1>
+          <p>Frontend developer</p>
+          <p class='job_description'>seeking for frontend intern role</p>
+          <hr>
+          <div class="follow">
+            <div class="flex">
+              <div class="followers">
+                <h2>500</h2>
+                <p>Followers</p>
+              </div>
+              <div class="following">
+                <h2>150</h2>
+                <p>Following</p>
+              </div>
+            </div>
+            <button id='follow_button' class='button'>Follow</button>
+          </div>
+        </div>
+      </div>
+      <script src="app.js"></script>
+</body>
+</html>
